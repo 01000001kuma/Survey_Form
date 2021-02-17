@@ -1,0 +1,64 @@
+body { 
+	background-image: url(https://wallpaperaccess.com/full/1560635.jpg);
+	
+}
+
+header{
+	text-align: center;
+	background-color: gray;
+}
+
+#description {
+	padding-bottom: 10px;
+}
+
+#title {
+	padding-top: 10px; 
+
+}
+
+.container {
+	background-color: #c98d8d;
+	border-radius: 10px;		
+	margin:auto;
+	width: 60%;
+	border: 10px red solid;
+	padding: 30px;
+	display: block;
+}
+
+.submit-button{
+	background-color: #79f05b;
+	border:none;
+	height: 50px;
+	width:100% ;
+	border-radius: 8px;
+}
+
+.form{
+	display: block;
+	margin: 10px;
+	width: 95%;
+	
+}
+
+#text-area {
+	width: 80%;
+	padding: 50px;
+
+}
+
+
+
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}

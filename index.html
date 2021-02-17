@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anarchy survey</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+      <header>
+      	 <h1 id="title" class="text-center">Anarchy Survey</h1>
+        	<p id="description" class="description text-center">
+          This survey will evaluate if you're a true Anarchist.
+    	   </p>
+    </header>
+  
+  <div class="container">	
+
+    <form id="survey-form">
+
+   	   	<div class="form-group">
+
+   			<label id="name-label" for="name">Name</label>
+   			<input type="text" name="name" class="form"  placeholder="Enter your name" required>
+
+   		</div>
+   	
+   		<div class="form-group">
+
+   			<label id="email-label" for="email">Email</label>
+   			<input type="email" name="email" class="form"  placeholder="Enter your Anarchist Email" required>
+   		
+   		</div>
+   		
+   		<div class="form-group">
+
+   	   		<label id="number-label" for="Age">Age</label>
+   			<input type="number" name="age" class="form" placeholder="Age" min="10" max="99" required>
+
+   		</div>
+
+   		<div class="form-group">
+
+   			<p>Which option describes you best?</p>
+   			<select id="dropdown" name="Anarchist" class="form-control" required>
+        		<option disabled selected value>Select your Anarchist preferences</option>
+        		<option value="Chaos">Chaos Everywhere</option>
+        		<option value="Music">Punk rock and concerts all the time</option>
+        		<option value="Social">Political and sociable but not a heavy drinker</option>
+        		<option value="Education">Education above all</option>
+          		<option value="preferNo">Prefer not to say 🤘</option>
+        		<option value="other">Other</option>
+      		</select>
+
+   		</div>
+
+   		<div class="form-group">
+   			
+   			<p>How you describe yourself?</p>
+   				
+   				<input type="radio" name="Rage" value="Rage">Temperamental
+   				
+   				<input type="radio" name="Friendly" value="Friendly">Friendly
+   				
+   				<input type="radio" name="Vengeance" value="vengeance">Vengeful
+
+   				<input type="radio" name="Alone" value="Alone">Loner
+
+   		</div class="form-group">
+
+   				<p>For more information about yourself...</p>
+
+   				<textarea id="text-area" class="imput-text" name="additional-info placeholder">Tell me more about yourself...
+   				</textarea>
+
+
+ 		     <br>
+ 		     <br>
+
+
+   		<div class="form-group">
+
+   			<button type="submit" id="submit" class="submit-button">Submit the Most Awesome Anarchist Form </button>
+
+   		</div>
+  
+  </div>
+
+
+</form>
+
+</body>
+</html>
